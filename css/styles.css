@@ -288,8 +288,14 @@ footer {
 /*Acomodar lo de la imagen que no se ve bien*/
     header {
         background-position: center;
+        height: 450px;
     }
     
+    .text-header{
+        height: 340px;
+    }
+
+    /*-----------About us----------- */
     .container-nosotros{
         flex-direction: column;
         justify-content: center;
@@ -366,6 +372,63 @@ footer {
         font-size: 0.75rem;
     }
 }
+
+@media screen and (max-width: 500px){
+    .container{
+        padding:40px 0 ;
+    }
+    
+    
+    /*------------Header---------*/
+    header {
+        height: 420px;
+    }
+    
+    .nave{
+        text-align: center;
+        padding: 1.9rem 0 0 0;
+    }
+
+    .nave > a{
+        margin-right: 5px;
+        
+    }
+
+    .text-header{
+        height: 340px;
+    }
+    .text-header h1{
+        font-size: 2rem;
+        margin-bottom: 3rem;
+    }
+
+    .text-header h2{
+        font-size: 1.5rem;
+    }
+
+    /*---------about us--------*/
+    .container-nosotros{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title{
+        margin-bottom: 2rem;
+    }
+
+    .nosotros .container-text {
+        width: 90%;
+    }
+
+    .img-about-us {
+        width: 90%;
+    }
+
+
+}
+
+
 
 
 
