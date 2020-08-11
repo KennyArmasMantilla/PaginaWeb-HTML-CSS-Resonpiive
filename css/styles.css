@@ -279,6 +279,7 @@ footer {
     text-align: center;
     font-size: 24px;
     margin: 20px 0 0 0;
+    color: #ccc;
 }
 
 
@@ -308,6 +309,62 @@ footer {
         width: 44%;
     }
 
+/*----------Clientes-------*/
+    .cards {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+    }
+    .card:first-child{
+        margin: 1.5rem;
+    }
+
+/*---------Seriveces------------*/
+    .service-cont{
+        /* width: 90%; */
+        flex-direction: column;
+        justify-content: center;
+        /* align-items: center; */
+    }
+
+    .service-indi{
+        width: 100%;
+        text-align: center;
+    }
+
+    .service-indi img{
+        width: 50%;
+        height: 50%;
+    }
+/* para que el primero y el segundo tengan una separacion */
+    .service-indi:nth-child(1), .service-indi:nth-child(2){
+        margin-bottom: 4rem;
+    }
+
+
+
+    
+/* -------------Footer---------- */
+    footer {
+        padding: 40px 0 20px 0px;
+    }
+
+    
+    .container-footer{
+        padding-bottom: 20px;   
+    }
+
+    .content-foot {
+        font-size: 0.85rem;
+    }
+
+    .text-final{
+        font-size: 0.75rem;
+    }
 }
 
 
