@@ -422,10 +422,70 @@ footer {
     }
 
     .img-about-us {
+        margin-bottom: 3rem;
         width: 90%;
     }
 
+    .container-text h3 {
+        margin-bottom: 0.5rem;
+        font-size: 1rem;
+    }
+    
+    .container-text h3 span {
+        font-size: 0.9rem;
+    }
+    
+    .container-text p {
+        font-size: 0.9rem;
+        padding-bottom: 2rem;
+    }
 
+/* -------------------------------Portafolio----------------------- */
+    .image-portfolio{
+        width: 95%;
+    }
+
+/*-------------------------------Clientes----------------------------*/
+    .card{
+        /* width: 95%; */
+        height: 430px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card img{
+        width: 40%;
+        height: 20%;
+    }
+
+/*-------------------------------Footer----------------------------*/
+    footer{
+        padding: 30px 0 10px 0;
+    }    
+
+    .container-footer{
+        flex-direction: column;
+        border: none;
+    }
+
+    .content-foot{
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 0.8rem;
+    }
+
+    .content-foot h4{
+        border-bottom: none
+    }
+    .content-foot p{
+        border-bottom: 1px solid #a8dadc ;
+    }
+
+    .text-final{
+        margin: 1px 0 0 0;
+        font-size: 0.6rem;
+    }
 }
 
 
